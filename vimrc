@@ -64,3 +64,9 @@ call plug#end()
 
 
 map tt :NERDTreeToggle<CR>
+
+
+" ===
+" === YCM_conifg
+" ===
+let g:ycm_autoclose_preview_window_after_completion = 1

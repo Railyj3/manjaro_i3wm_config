@@ -297,6 +297,8 @@ exec_always --no-startup-id albert
 exec_always --no-startup-id variety 
 exec_always --no-startup-id killall conky 
 exec_always --no-startup-id goldendict
+exec_always --no-startup-id sleep 1; sudo mount /dev/sdb1 /mnt/E:/
+
 
 
 
