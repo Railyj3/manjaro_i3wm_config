@@ -4,7 +4,6 @@ filetype indent on
 filetype plugin on
 filetype plugin indent on
 
-
 syntax on
 
 " 拼写检查：spell
@@ -57,9 +56,11 @@ noremap K 5k
 
 call plug#begin('~/.vim/plugged')
 
-Plug 'vim-airline/vim-airline'
-" Plug 'scrooloose/nerdtree'
-" Plug 'ycm-core/YouCompleteMe'
+  Plug 'vim-airline/vim-airline'
+  Plug 'scrooloose/nerdtree'
+  Plug 'ycm-core/YouCompleteMe'
 
 call plug#end()
 
+
+map tt :NERDTreeToggle<CR>
